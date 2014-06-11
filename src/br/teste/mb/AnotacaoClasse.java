@@ -5,11 +5,11 @@ import java.lang.annotation.Annotation;
 import br.teste.anotacoes.MinhaAnotacao;
 
 @MinhaAnotacao(nome="Rodrigo Fortes")
-public class AnotacaoMetodo {
+public class AnotacaoClasse {
 
 	public static void main(String args[]){
 		
-		Class aClass = AnotacaoMetodo.class;
+		Class aClass = AnotacaoClasse.class;
 		Annotation[] annotations = aClass.getAnnotations();
 		
 		for (Annotation annotation : annotations) {
